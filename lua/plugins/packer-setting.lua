@@ -43,6 +43,7 @@ return packer.startup(function(use)
   use {
     'marko-cerovac/material.nvim'
   }
+  require('user/theme').setup()
 
   use {
     'nvim-lualine/lualine.nvim',

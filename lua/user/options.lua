@@ -38,7 +38,6 @@ local options = {
 }
 
 cmd('highlight LineNr ctermfg=DarkGrey')
-cmd('colorscheme material')
 cmd 'set whichwrap+=<,>,[,],h,l'
 cmd [[set iskeyword+=-]]
 cmd [[set formatoptions-=cro]] -- TODO: this doesn't seem to work
